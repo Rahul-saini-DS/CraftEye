@@ -1,0 +1,31 @@
+# YOLO Multi-Source Inference Pipeline
+# Requirements for the minimal pipeline using Ultralytics as core engine
+
+# Core dependencies
+ultralytics
+torch
+torchvision
+
+# Computer Vision
+opencv-python
+numpy
+
+# UI Framework
+streamlit
+streamlit-folium
+plotly
+
+# Machine Learning
+scikit-learn
+scipy
+
+# Additional utilities
+pathlib2  # For enhanced Path operations
+Pillow    # Image processing support
+
+# Optional performance enhancements
+# Uncomment if you want GPU acceleration with ONNX
+# onnxruntime-gpu
+
+# Uncomment for CPU-only ONNX runtime
+# onnxruntime
